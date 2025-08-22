@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task 3 - Responsive Quiz & API Data</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Responsive Quiz & Dynamic Joke Fetcher</h1>
+  </header>
+
+  <main class="container">
+    <!-- Quiz Section -->
+    <section class="quiz-section">
+      <h2>Interactive Quiz</h2>
+      <div id="quiz-container">
+        <div id="question">Question text</div>
+        <div id="answers"></div>
+        <button id="next-btn" disabled>Next</button>
+        <div id="result" class="hidden"></div>
+      </div>
+    </section>
+
+    <!-- Joke API Section -->
+    <section class="joke-section">
+      <h2>Fetch a Random Joke</h2>
+      <button id="fetch-joke-btn">Get Joke</button>
+      <p id="joke-text"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
